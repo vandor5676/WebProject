@@ -22,17 +22,22 @@ body {
 
 .deliverable {
     background-color: rgb(215, 219, 228);
-    margin: 0% 10% 0% 10%;
+    margin: 0 10% 0 10%;
     border-radius: 20px;
     border: 3px;
     border-style: solid;
     border-color: rgb(155, 164, 172);
 }
 
+.deliverable#title {
+    background-color: rgb(170, 174, 182);
+}
+
 .deliverable h1,
+h2,
 p,
 a {
-    margin: 4%;
+    margin: 1cm;
 }
 
 .deliverable a {
@@ -47,6 +52,16 @@ a {
 .deliverable a:hover {
     background-color: rgb(21, 170, 21);
     color: white;
+}
+
+
+/* -------------------- */
+
+
+/* spacer */
+
+.space {
+    margin: 6%;
 }
 
 
