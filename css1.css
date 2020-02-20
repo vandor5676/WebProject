@@ -1,6 +1,21 @@
-* {
+body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
+
+
+/* Header*/
+
+.header {
+    padding: 80px;
+    margin: 0 0 20px 0;
+    text-align: center;
+    background: #3e89c7;
+    color: white;
+}
+
+
+/* -------------------- */
 
 
 /* deliverables */
@@ -15,8 +30,23 @@
 }
 
 .deliverable h1,
-p {
+p,
+a {
     margin: 4%;
+}
+
+.deliverable a {
+    padding: 10px;
+    text-decoration: none;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(21, 170, 21);
+    border-radius: 10px;
+}
+
+.deliverable a:hover {
+    background-color: rgb(21, 170, 21);
+    color: white;
 }
 
 
