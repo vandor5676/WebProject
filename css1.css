@@ -1,0 +1,23 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* deliverables */
+
+.deliverable {
+    background-color: rgb(215, 219, 228);
+    margin: 0% 10% 0% 10%;
+    border-radius: 20px;
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(155, 164, 172);
+}
+
+.deliverable h1,
+p {
+    margin: 4%;
+}
+
+
+/* -------------------- */
