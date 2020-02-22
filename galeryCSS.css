@@ -112,3 +112,30 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+/* grid */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(105, 104, 104);
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: rgba(95, 87, 87, 0.8);
+    border: 1px solid rgba(51, 47, 47, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+/* image */
+
+.grid-container img {
+    width: auto;
+    height: 300px;
+    box-shadow: 4px 4px 11px 4px rgba(0, 0, 0, 0.397);
+}
