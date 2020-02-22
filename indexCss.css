@@ -172,3 +172,40 @@ body {
 p {
     color: white;
 }
+
+
+/* footer */
+
+
+/* footer */
+
+
+/* footer */
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(56, 56, 56);
+    box-shadow: inset -1px 5px 20px 20px #2f2f2f;
+    height: auto;
+    padding: 2cm 0;
+}
+
+footer div {
+    width: 10cm;
+    height: 100px;
+    margin: 70px 0 0 10px;
+    color: white;
+}
+
+footer img {
+    width: auto;
+    height: 20px;
+}
+
+p#LastModified {
+    margin: 0;
+    padding: .2cm;
+    text-align: right;
+}
