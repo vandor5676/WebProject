@@ -1,0 +1,114 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+
+/* navbar */
+
+.navbar li {
+    float: left;
+    border-right: 1px solid rgb(65, 56, 56);
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(44, 36, 36);
+}
+
+.navbar a {
+    display: block;
+    color: rgb(185, 183, 183);
+    text-align: center;
+    padding: 14px 16px;
+    background-color: rgb(44, 36, 36);
+    ;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: rgb(255, 255, 255);
+}
+
+
+/* name on banner */
+
+.NameDiv {
+    background-color: rgba(255, 255, 255, 0.103);
+    height: 40%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.NameDiv h1 {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.NameDiv img {
+    width: auto;
+    height: 100px;
+}
+
+
+/* small text on banner */
+
+.smallTextOnBanner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* call to action button strip */
+
+.buttonDiv {
+    background-color: rgba(250, 235, 215, 0.13);
+    height: 60%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonDiv a {
+    background-color: rgb(77, 74, 70);
+    padding: 25px 40px;
+    border-radius: 150px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.buttonDiv a:hover {
+    background-color: rgb(87, 91, 94);
+}
+
+
+/* Blocks */
+
+.block {
+    background-color: blue;
+    width: auto;
+    height: 22cm;
+}
+
+.block#header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0.5)), url(Resources/background.jpg);
+    height: 22cm;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
