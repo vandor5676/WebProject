@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -157,6 +161,11 @@ body {
     display: inline-block;
     text-align: center;
     width: 650px;
+    opacity: .7;
+}
+
+.productImage:hover {
+    opacity: 1;
 }
 
 .productImage h2,
