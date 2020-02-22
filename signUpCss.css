@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -122,99 +126,45 @@ body {
 /* block2 */
 
 .block2 {
-    background-color: rgb(39, 39, 39);
-}
-
-
-/* block2 title */
-
-.Block2Ttile {
-    text-align: center;
-    color: white;
-}
-
-
-/*block2 subtitle */
-
-.centerSubText h1 {
-    margin: 0;
-    padding: 2cm 0 0 0;
-}
-
-.centerSubText p {
-    margin: 0;
-    padding: 0 0 2cm 0;
-}
-
-
-/* center block 2 images */
-
-.centerImagesDiv {
+    height: 22cm;
+    background-color: rgb(58, 55, 55);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.productImage {
-    vertical-align: top;
-    display: inline-block;
-    text-align: center;
-    width: 650px;
-    opacity: .7;
+.CenterForm {
+    background-color: rgba(133, 78, 78, 0);
+    border-radius: 5px;
+    padding: 20px;
 }
 
-.productImage:hover {
-    opacity: 1;
-}
 
-.productImage h2,
-p {
+/* form */
+
+.block2>h1 {
     color: white;
 }
 
-.productImage p:first-of-type::first-letter {
-    color: #903;
-    font-family: Georgia;
-    font-size: 30px;
-    line-height: 60px;
-    padding-top: 4px;
-    padding-right: 1px;
-    padding-left: 3px;
+form input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
-
-/* footer */
-
-
-/* footer */
-
-
-/* footer */
-
-footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: rgb(56, 56, 56);
-    box-shadow: inset -1px 5px 20px 20px #2f2f2f;
-    height: auto;
-    padding: 2cm 0;
-}
-
-footer div {
-    width: 10cm;
-    height: 100px;
-    margin: 70px 0 0 10px;
+form label {
     color: white;
 }
 
-footer img {
-    width: auto;
-    height: 20px;
-}
-
-p#LastModified {
-    margin: 0;
-    padding: .2cm;
-    text-align: right;
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
