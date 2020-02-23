@@ -10,6 +10,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" type="text/css" href="galeryCSS.css">
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+
+
 </head>
 
 <body>
@@ -39,7 +44,7 @@
     </div>
 
     <div class="grid-container" id="GridRequirement">
-        <div class="grid-item"><img src="Resources/galery/download.jpg"></div>
+        <div class="grid-item"><img src="Resources/galery/download.jpg"> </div>
         <div class="grid-item"><img src="Resources/galery/download (2).jpg"></div>
         <div class="grid-item"><img src="Resources/galery/download (3).jpg"></div>
         <div class="grid-item"><img src="Resources/galery/download (4).jpg"></div>
@@ -50,20 +55,27 @@
         <div class="grid-item"><img src="Resources/galery/download (9).jpg"></div>
     </div>
 
+
     <div class="block3">
         <div class="centerVid">
 
 
             <video width="720" height="640" controls>
-            <source src="Resources/galery/taliusvid.mp4" type="video/mp4">
-           
-          Your browser does not support the video tag.
-          </video>
-            <audio controls>
-            
-            <source src="Resources/galery/422642__trullilulli__sfx-ambiance-clock-tick.wav" type="audio/wav">
-          Your browser does not support the audio element.
-          </audio>
+                <source src="Resources/galery/taliusvid.mp4" type="video/mp4">
+    
+                Your browser does not support the video tag.
+            </video>
+            <audio controls id="audio" controls="controls" preload="auto">
+                <source src="Resources/galery/422642__trullilulli__sfx-ambiance-clock-tick.wav" type="audio/wav">
+            </audio>
+            <script>
+                var tock = $("#audio")[0];
+                $("#GridRequirement img")
+                    .mouseenter(function() {
+                        // tock.pause();
+                        tock.play();
+                    });
+            </script>
         </div>
     </div>
 </body>
