@@ -132,20 +132,21 @@ body {
 }
 
 .grid-item img {
-    transition: height 2s;
+    transition: width 2s;
+    transition: 2s;
 }
 
 .grid-item img:hover {
-    width: auto;
-    height: 400px;
+    width: 100%;
+    height: auto;
 }
 
 
 /* image */
 
 .grid-container img {
-    width: auto;
-    height: 300px;
+    width: 50%;
+    height: auto;
     box-shadow: 4px 4px 11px 4px rgba(0, 0, 0, 0.397);
 }
 
@@ -160,10 +161,16 @@ body {
 
 .block3 {
     background-color: rgb(80, 77, 77);
-    height: 22cm;
+    height: auto;
 }
 
 .centerVid {
     width: 50%;
     margin: auto;
+}
+
+.centerVid video {
+    width: 100%;
+    height: auto;
+    margin: 50px;
 }
