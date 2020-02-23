@@ -128,6 +128,16 @@ body {
     padding: 20px;
     font-size: 30px;
     text-align: center;
+    transition: width 2s;
+}
+
+.grid-item img {
+    transition: height 2s;
+}
+
+.grid-item img:hover {
+    width: auto;
+    height: 400px;
 }
 
 
@@ -137,4 +147,23 @@ body {
     width: auto;
     height: 300px;
     box-shadow: 4px 4px 11px 4px rgba(0, 0, 0, 0.397);
+}
+
+
+/* block3 */
+
+
+/* block3 */
+
+
+/* block3 */
+
+.block3 {
+    background-color: rgb(80, 77, 77);
+    height: 22cm;
+}
+
+.centerVid {
+    width: 50%;
+    margin: auto;
 }

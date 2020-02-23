@@ -213,8 +213,10 @@ footer img {
     height: 20px;
 }
 
-p#LastModified {
+p#LastModified,
+dl {
     margin: 0;
     padding: .2cm;
     text-align: right;
+    color: white;
 }

@@ -128,7 +128,7 @@ body {
 
 .block2 {
     background-color: rgb(87, 87, 87);
-    height: 22cm;
+    height: 30cm;
 }
 
 
@@ -148,15 +148,31 @@ tr:last-of-type {
     color: white;
 }
 
+.block2 blockquote {
+    margin: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: #363535 solid;
+    padding: 75px;
+    text-shadow: 2px 1px 4px rgb(155, 155, 155);
+}
+
+.TaliusLogo {
+    width: auto;
+    height: 40px;
+}
+
 .centerFAQ {
     width: 70%;
     margin: auto;
     position: relative;
-    top: 20%;
+    top: 10%;
 }
 
-.block2>h1 {
+.centerFAQ>h1 {
     margin: 0;
+    transform: rotate(2deg);
 }
 
 table {
