@@ -161,6 +161,7 @@ body {
     text-align: center;
     width: 650px;
     opacity: .7;
+    text-shadow: 14px 3px 8px black;
 }
 
 .productImage:hover {
@@ -206,6 +207,10 @@ footer div {
     height: 100px;
     margin: 70px 0 0 10px;
     color: white;
+}
+
+div+button {
+    text-shadow: 7px 4px 6px black;
 }
 
 footer img {
