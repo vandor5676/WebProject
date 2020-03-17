@@ -278,3 +278,21 @@ input#emailInput:focus {
 input#emailInput:valid {
     background-color: rgb(34, 202, 62);
 }
+
+
+/* animations */
+
+ol li#liAnimate1,
+ol li#liAnimate2,
+ol li#liAnimate3 {
+    animation: rainbow 10s infinite alternate;
+}
+
+@keyframes rainbow {
+    0% {
+        color: rgb(134, 134, 134);
+    }
+    100% {
+        color: rgb(43, 43, 43);
+    }
+}
