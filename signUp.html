@@ -12,6 +12,12 @@
     <link rel="stylesheet" type="text/css" href="signUpCss.css">
 </head>
 
+<script>
+    function showAlert() {
+        alert("Thank you for your message");
+    }
+</script>
+
 <body>
     <!-- background -->
     <div class="block" id="header">
@@ -101,18 +107,18 @@
             <h1>CONTACT US</h1>
 
             <form id="formRequirement">
-                <label>Full Name</label>
-                <input type="text">
-                <label>Email</label>
-                <input type="text">
+                <label for="nameInput">Full Name</label>
+                <input type="text" id="nameInput" required>
+                <label for="emailInput">Email</label>
+                <input type="email" required id="emailInput">
                 <label>Subject</label>
-                <input type="text">
+                <input type="text" required>
                 <label>Message</label>
-                <input type="text" style="height:200px">
+                <textarea type="text" style="height:200px" id="FormMessage" required> </textarea>
 
                 <label>Location</label>
                 <input list="Locations">
-                <datalist id="Locations">
+                <datalist id="Locations" required>
                     <option value="Head office">
                     <option value="Vancouver">
                     <option value="grenada">

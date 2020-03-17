@@ -239,6 +239,18 @@ form label {
     color: white;
 }
 
+textarea#FormMessage {
+    width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: none;
+    display: block;
+    padding: 12px;
+}
+
 input[type=submit] {
     background-color: #4CAF50;
     color: white;
@@ -246,4 +258,23 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+}
+
+
+/* form validation */
+
+input#nameInput:focus {
+    background-color: rgb(202, 34, 34);
+}
+
+input#nameInput:valid {
+    background-color: rgb(34, 202, 62);
+}
+
+input#emailInput:focus {
+    background-color: rgb(202, 34, 34);
+}
+
+input#emailInput:valid {
+    background-color: rgb(34, 202, 62);
 }
