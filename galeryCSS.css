@@ -48,6 +48,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .NameDiv h1 {
@@ -173,4 +174,15 @@ body {
     width: 100%;
     height: auto;
     margin: 50px;
+}
+
+
+/* responsive  */
+
+@media only screen and (max-width: 500px) {
+    /* For tablets: */
+    .NameDiv img {
+        width: auto;
+        height: 70px;
+    }
 }

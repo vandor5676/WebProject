@@ -49,6 +49,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .NameDiv h1 {
@@ -151,13 +152,12 @@ body {
 
 .centerImagesDiv {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
 
 .productImage {
-    vertical-align: top;
-    display: inline-block;
     text-align: center;
     width: 650px;
     opacity: .7;
@@ -166,6 +166,11 @@ body {
 
 .productImage:hover {
     opacity: 1;
+}
+
+.productImage img {
+    width: 95%;
+    height: auto;
 }
 
 .productImage h2,
@@ -235,4 +240,15 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+
+
+/* responsive  */
+
+@media only screen and (max-width: 500px) {
+    /* For tablets: */
+    .NameDiv img {
+        width: auto;
+        height: 70px;
+    }
 }

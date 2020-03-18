@@ -54,6 +54,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .NameDiv h1 {
@@ -294,5 +295,16 @@ ol li#liAnimate3 {
     }
     100% {
         color: rgb(43, 43, 43);
+    }
+}
+
+
+/* responsive  */
+
+@media only screen and (max-width: 500px) {
+    /* For tablets: */
+    .NameDiv img {
+        width: auto;
+        height: 70px;
     }
 }
