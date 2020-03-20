@@ -243,12 +243,4 @@ button {
 }
 
 
-/* responsive  */
-
-@media only screen and (max-width: 500px) {
-    /* For tablets: */
-    .NameDiv img {
-        width: auto;
-        height: 70px;
-    }
-}
+/* responsive css is in responsive.css  */
